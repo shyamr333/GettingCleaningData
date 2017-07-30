@@ -17,7 +17,7 @@ You should create one R script called run_analysis.R that does the following.
 
 # **Files**
 
-**run_analysis.R:** This has all the R code for implementing the above mentioned analysis. The code has been annotated with comments which explain the rationale behind every step
+**run_analysis.R:** This has all the R code for implementing the analysis. The code has been annotated with comments which explain the rationale behind every step
 
 It performs the following steps. The minute details of how each step was performed, are in CodeBook.md:
 
