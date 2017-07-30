@@ -17,12 +17,21 @@
 # Variables used in the code
 
 `X_train` and `X_test` contain the values of the feature variables for each observation
+
 `y_train` and `y_test` contain the activity number for each observation
+
 `subject_train` and `subject_test` contain the subject ID for each observation
+
 `feature_names` contains the names/labels of the feature variables, whose values are there in `X_train` and `X_test`
+
 `activity_names` contains the activity type/labels corresponding to activity numbers
+
 `merged_train` has all the data for the training set in one dataset. It was created by using `cbind()` on `X_train`, `y_train` and `subject_train`
+
 `merged_test` has all the data for the testing set in one dataset. It was created by using `cbind()` on `X_test`, `y_test` and `subject_test`
+
 `combined` was created using `rbind()` on `merged_train` and `merged_test`
+
 `final_dataset` has only the relevant columns (means and standard deviations of the measurements) and also has the Activity types instead of the activity numbers. The activity types was taken from `activity_labels.txt`
+
 `averaged_data` is the tidy dataet created in step 6, which was ultimately written to `averagedData.txt`
